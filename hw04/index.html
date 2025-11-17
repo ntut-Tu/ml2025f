@@ -153,7 +153,7 @@
   <!-- ------------------------------------------------>
   <div class="row hw12">
     <div class="col-md-12 twenty">
-      心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。
+      本次主動脈瓣物件偵測作業，深入體驗了醫學影像數據處理的複雜性。從 06_ct.nii.gz 原始檔案開始 ，到利用 3D Slicer 進行影像擷取與插值擴充 ，每一步都要求極高的準確度。最耗時的環節是使用 Labelme 進行手動標註 ，這不僅考驗眼力與耐心，更深刻體會到建立高品質訓練資料集的艱辛與重要性 。這個過程讓我對機器學習在醫療影像領域的應用有了更扎實的理解與體會。
     </div>
   </div>
 
@@ -169,12 +169,12 @@
         </tr>
         <tr>
           <td rowspan="4" id="myTotal"></td>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox1"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox1" checked></td>
           <td id='m1'>4</td>
           <td>Simple baseline - 描述</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox2"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox2" checked></td>
           <td id='m2'>4</td>
           <td>Medium baseline - 描述</td>
         </tr>
@@ -184,7 +184,7 @@
           <td>Strong baseline - 描述</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox4" checked></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox4"></td>
           <td id='m4'>-10</td>
           <td>沒有寫100字心得</td>
         </tr>
@@ -194,16 +194,18 @@
   </div>
 
   <!-- ------------------------------------------------>
+  <div class="col-md-12 twenty">
+    <iframe width="100%" height="560" src="https://youtu.be/cdHqbJvwPsQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+  </div>
+  <!-- ------------------------------------------------>
   <div class="row hw12 bottomrow">
     <div class="col-md-12 twenty">
-      <video id="video1" style="width:100%;max-width:100%;" controls="">
-        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-      </video>
+      標註檔連結:
+      <a href="https://github.com/ntut-Tu/ml2025f/tree/main/hw04/111AB0040.txt" download="">
+        https://github.com/ntut-Tu/ml2025f/tree/main/hw04/111AB0040.txt
+      </a>
     </div>
   </div>
-
-  <!-- ------------------------------------------------>
-
   <!-- ------------------------------------------------>
 
 
@@ -249,6 +251,6 @@
     d3.select("#myTotal").html(score);    
   }
 </script>
-
+</div>
 </body>
 </html>
