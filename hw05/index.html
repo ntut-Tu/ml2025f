@@ -153,7 +153,7 @@
   <!-- ------------------------------------------------>
   <div class="row hw12">
     <div class="col-md-12 twenty">
-      心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。
+      這次 HW05 的實作讓我完整掌握了 YOLO 模型的應用與訓練技巧。從研究不同版本、親自調校超參數，到理解資料集標註的細節，我體會到數據準備與模型優化的重要性。透過精算學習率和批次大小，最終成功提升了物件偵測的效能與準確率，是次深刻的技術成長。
     </div>
   </div>
 
@@ -169,7 +169,7 @@
         </tr>
         <tr>
           <td rowspan="4" id="myTotal"></td>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox1"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox1" checked></td>
           <td id='m1'>4</td>
           <td>Simple baseline - 描述</td>
         </tr>
@@ -184,7 +184,7 @@
           <td>Strong baseline - 描述</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox4" checked></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox4"></td>
           <td id='m4'>-10</td>
           <td>沒有寫100字心得</td>
         </tr>
@@ -194,16 +194,11 @@
   </div>
 
   <!-- ------------------------------------------------>
-  <div class="row hw12 bottomrow">
-    <div class="col-md-12 twenty">
-      <video id="video1" style="width:100%;max-width:100%;" controls="">
-        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-      </video>
-    </div>
-  </div>
 
   <!-- ------------------------------------------------>
-
+  <td> Simple Baseline mAP50 分數圖片
+    <img src="Simple.png" width="100%" height="auto">
+  </td>
   <!-- ------------------------------------------------>
 
 
@@ -249,6 +244,6 @@
     d3.select("#myTotal").html(score);    
   }
 </script>
-
+</div>
 </body>
 </html>
